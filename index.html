@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuscript JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div id="container">
+            <h1 class="header-1">Manuscript JS</h1>
+            
+            <h2>Pixel Art Maker</h2>
+
+            <h3>(1) Choose Grid Size</h3>
+            <form id="sizePicker">
+                Grid Height:
+                <input type="number" id="input_height" name="height" min="1" value="1">
+                <br>
+                Grid Width:
+                <input type="number" id="input_width" name="width" min="1" value="1">
+                <br><br>
+                <input type="submit" class="changeColor">
+            </form>
+
+            <h3>(2) Pick em colours</h3>
+            <input type="color">
+        
+            <h3>(3) Design Canvas</h3>
+            <table id="pixel_canvas"></table>
+            <div id="canvas"></div>
+            <div class="pixel"></div>
+            <br>
+            <button class="changeColor">Change colours!</button>
+
+</div>
+</body>
+</html>
